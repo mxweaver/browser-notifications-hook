@@ -7,7 +7,9 @@
     "url": "git@github.com:mayavera/browser-notifications-hook.git"
   },
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "tsc"
+  },
   "keywords": [
     "hooks",
     "react",
@@ -16,5 +18,8 @@
     "notifications"
   ],
   "author": "Maya Vera <maya@mayavera.me> (https://mayavera.me/)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^3.9.6"
+  }
 }
