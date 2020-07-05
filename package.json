@@ -1,0 +1,20 @@
+{
+  "name": "browser-notifications-hook",
+  "version": "0.1.0",
+  "description": "A react hook for browser notifications",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mayavera/browser-notifications-hook.git"
+  },
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "hooks",
+    "react",
+    "react-hooks",
+    "browser",
+    "notifications"
+  ],
+  "author": "Maya Vera <maya@mayavera.me> (https://mayavera.me/)",
+  "license": "MIT"
+}
