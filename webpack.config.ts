@@ -5,7 +5,7 @@ import HTMLWebpackPlugin from 'html-webpack-plugin';
 
 const config: WebpackConfiguration & WebpackDevServerConfiguration = {
   mode: 'development',
-  entry: './app/index.tsx',
+  entry: './demo/index.tsx',
   devtool: 'inline-source-map',
   output: {
     filename: 'bundle.js',
@@ -15,19 +15,20 @@ const config: WebpackConfiguration & WebpackDevServerConfiguration = {
     extensions: [
       '.js',
       '.tsx',
+      '.ts',
     ],
   },
   module: {
     rules: [
       {
-        test: /\.tsx$/,
+        test: /\.tsx?$/,
         loader: 'ts-loader',
       },
     ],
   },
   plugins: [
     new HTMLWebpackPlugin({
-      template: './app/index.html',
+      template: './demo/index.html',
     }),
   ],
   devServer: {
